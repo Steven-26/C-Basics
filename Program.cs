@@ -13,6 +13,15 @@
             object obj = book;
             Console.WriteLine(obj);
             #endregion
+            #region Question 2
+            // 2- Using the Book class above, print ToString(), Equals(), GetHashCode(), and GetType().
+
+            Console.WriteLine(book.ToString());
+            Console.WriteLine(book.Equals(book));
+            Console.WriteLine(book.GetHashCode());
+            Console.WriteLine(book.GetType());
+
+            #endregion
         }
     }
 
