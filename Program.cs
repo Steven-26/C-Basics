@@ -22,11 +22,19 @@
             Console.WriteLine(book.GetType());
 
             #endregion
+            #region Question 3
+            // Q03.  Look at the line below. Is it a compile-time error, a runtime error, or a logical error? Fix it. int pages = "464";
+
+            // Compile-time error
+            int pages = 464;
+            Console.WriteLine(pages);
+
+            #endregion
         }
     }
 
 
-class Book
+    class Book
 {
     public string Title;
     public int Pages;
