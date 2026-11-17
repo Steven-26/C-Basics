@@ -135,6 +135,15 @@
             Console.WriteLine(title);
 
             #endregion
+            #region Question 14
+            // Q14. Using title from the previous question, use ?? to print "Untitled" if title is null. Then use ??= to assign title the value "Untitled" only if it's still null.
+
+            Console.WriteLine(title ?? "Untitled");
+
+            title ??= "Untitled";
+            Console.WriteLine(title);
+
+            #endregion
         }
     }
 
