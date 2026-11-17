@@ -66,6 +66,14 @@
             Console.WriteLine(newPrice);
 
             #endregion
+            #region Question 7
+            // Q07. Given string pagesText = "464";, convert it into an int using the Convert class.
+
+            string pagesText = "464";
+            int convertedPages = Convert.ToInt32(pagesText);
+            Console.WriteLine(convertedPages);
+
+            #endregion
         }
     }
 
