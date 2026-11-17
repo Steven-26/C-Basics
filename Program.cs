@@ -25,7 +25,7 @@
             #region Question 3
             // Q03.  Look at the line below. Is it a compile-time error, a runtime error, or a logical error? Fix it. int pages = "464";
 
-            // Compile-time error
+
             int pages = 464;
             Console.WriteLine(pages);
 
@@ -48,6 +48,14 @@
             {
                 Console.WriteLine("Done");
             }
+
+            #endregion
+            #region Question 5
+            // Q05. Declare an int pages = 300; then store it in a double variable without using a cast.
+
+            int pagesQ5 = 300;
+            double pagesDouble = pagesQ5;
+            Console.WriteLine(pagesDouble);
 
             #endregion
         }
