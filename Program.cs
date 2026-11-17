@@ -109,6 +109,16 @@
             Console.WriteLine(unboxedCopies);
 
             #endregion
+            #region Question 11
+            // Q11. Declare an int? year = null;. Print whether it has a value, then assign it 2023 and print its value.
+
+            int? nullableYear = null;
+            Console.WriteLine(nullableYear.HasValue);
+
+            nullableYear = 2023;
+            Console.WriteLine(nullableYear.Value);
+
+            #endregion
         }
     }
 
